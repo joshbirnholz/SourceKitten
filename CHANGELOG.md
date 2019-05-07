@@ -6,7 +6,8 @@
 
 ##### Enhancements
 
-* None.
+* Added abstract to parsed XML documentation.
+  [Josh Birnholz](https://github.com/joshbirnholz)
 
 ##### Bug Fixes
 
