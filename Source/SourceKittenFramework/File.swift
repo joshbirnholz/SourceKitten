@@ -489,6 +489,7 @@ public func parseFullXMLDocs(_ xmlDocs: String) -> [String: SourceKitRepresentab
         }
         docs[SwiftDocKey.docDiscussion.rawValue] = commentPartsXML["Discussion"].childrenAsArray()
         docs[SwiftDocKey.docResultDiscussion.rawValue] = commentPartsXML["ResultDiscussion"].childrenAsArray()
+        docs[SwiftDocKey.docAbstract.rawValue] = commentPartsXML["Abstract"].childrenAsArray()
         return docs
     }
 }
