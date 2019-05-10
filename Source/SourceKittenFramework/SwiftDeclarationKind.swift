@@ -72,6 +72,8 @@ public enum SwiftDeclarationKind: String, CaseIterable {
     case functionSubscript = "source.lang.swift.decl.function.subscript"
     /// `generic_type_param`.
     case genericTypeParam = "source.lang.swift.decl.generic_type_param"
+    /// `keyword`
+    case keyword = "source.lang.swift.keyword"
     /// `module`.
     case module = "source.lang.swift.decl.module"
     /// `precedencegroup`.
